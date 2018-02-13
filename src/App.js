@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.scss'
+
+import {Container, Box, Button} from 'bloomer'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
+      <Container className='App'>
+        <Box className='App-header'>
+          <img src={logo} className='App-logo' alt='logo' />
+          <h1 className='App-title'>Welcome to React</h1>
+        </Box>
+        <p className='App-intro'>
+          <Button isColor='danger'>Ceva</Button>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-      </div>
-    );
+      </Container>
+    )
   }
 }
 
-export default App;
+export default App
