@@ -4,6 +4,13 @@
 @import "settings/all";
 @import "~bulma";
 
+@import "custom";
+
+html,
+body {
+  background: lighten($cream, 1);
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -1,4 +1,4 @@
-@import "../../styles/settings/all";
+@import "src/styles/settings/all";
 
 .AppLayout {}
 
@@ -8,4 +8,8 @@
   .alternate {
     background: $red;
   }
+}
+
+.Page-hero {
+  margin: ($space) 0;
 }

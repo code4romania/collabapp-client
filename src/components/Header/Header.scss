@@ -1,7 +1,7 @@
-@import "../../styles/settings/all";
+@import "src/styles/settings/all";
 
 .Header {
-  background: $cream;
+  background: $yellow;
 
   .button {
     margin: 0 ($space / 4);
@@ -9,6 +9,10 @@
     @include tablet {
       margin-left: ($space / 2);
     }
+  }
+
+  .level {
+    padding: ($space * 3 / 4) 0;
   }
 }
 
