@@ -1,5 +1,5 @@
-.HomePage {
-  p {
-    font-size: 40px;
-  }
+@import "../../styles/settings/all";
+
+.HomePage-hero {
+  margin: ($space) 0;
 }

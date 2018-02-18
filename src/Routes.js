@@ -15,6 +15,7 @@ export default class App extends Component {
           <AppLayout>
             <Route exact path='/' component={pages.HomePage} />
             <Route exact path='/login' component={pages.LoginPage} />
+            <Route exact path='/register' component={pages.RegisterPage} />
           </AppLayout>
         </Switch>
       </Router>

@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import { Link } from '@/components'
 
-import './LoginPage.scss'
+import './RegisterPage.scss'
 
-export default class LoginPage extends Component {
+export default class RegisterPage extends Component {
   componentWillMount () {}
 
   render () {
     return (
-      <div className='Page LoginPage'>
+      <div className='Page RegisterPage'>
         <div className='container'>
-          <p>this is the login page</p>
+          <p>this is where you register page</p>
           <Link to='/' className='button is-danger'>Hello world</Link>
         </div>
       </div>

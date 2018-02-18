@@ -1,3 +1,37 @@
+@import "../../styles/settings/all";
+
 .Header {
-  background: #f00;
+  background: $cream;
+
+  .button {
+    margin: 0 ($space / 4);
+
+    @include tablet {
+      margin-left: ($space / 2);
+    }
+  }
+}
+
+.Header-inner {
+  padding: ($space) 0;
+}
+
+.Header-label {
+  display: inline-block;
+  line-height: ($space * 3 / 2);
+  font-weight: $weight-bold;
+  font-size: $size-5;
+  margin-right: ($space / 2);
+}
+
+.Header-brand {
+  @include tablet {
+    margin: 0 0 0 ($space / 2);
+  }
+
+  img {
+    display: inline-block;
+    // width: 100%;
+    height: ($space * 3 / 2);
+  }
 }

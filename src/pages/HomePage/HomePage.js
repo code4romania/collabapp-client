@@ -2,24 +2,23 @@ import React, { Component } from 'react'
 
 import './HomePage.scss'
 
-import { Link } from '@/components'
-
-import { Button } from 'bloomer'
+import { Title, Columns, Column, Box } from 'bloomer'
 
 export default class HomePage extends Component {
   componentWillMount () {}
-
-  LoginBithc () {
-    console.log('this is LoginBithc')
-  }
 
   render () {
     return (
       <div className='Page HomePage'>
         <div className='container'>
-          <p>this is the home page</p>
-          <Link to='/login'>Login</Link>
-          <Button isColor='danger'>Hello world</Button>
+          <Columns isCentered>
+            <Column isSize={{mobile: 12, tablet: 8}}>
+              <Box className='HomePage-hero'>
+                <Title isSize='2'>Bine ai venit!</Title>
+                <p>You wanna know how I got them? So I had a wife. She was beautiful, like you, who tells me I worry too much, who tells me I ought to smile more, who gambles and gets in deep with the sharks. Hey. One day they carve her face. And we have no money for surgeries. She can't take it. </p>
+              </Box>
+            </Column>
+          </Columns>
         </div>
       </div>
     )
