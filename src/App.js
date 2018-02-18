@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './App.scss'
 
 import Routes from './Routes'
 

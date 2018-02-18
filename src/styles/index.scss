@@ -1,0 +1,11 @@
+@import url('//fonts.googleapis.com/css?family=Zilla+Slab:300,400,700&subset=latin-ext');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import "settings/all";
+@import "~bulma";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

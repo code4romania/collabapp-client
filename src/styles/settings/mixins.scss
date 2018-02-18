@@ -1,0 +1,20 @@
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin word-break() {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  hyphens: auto;
+}
