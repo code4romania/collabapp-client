@@ -14,6 +14,7 @@ export default class App extends Component {
         <Switch>
           <AppLayout>
             <Route exact path='/' component={pages.HomePage} />
+            <Route exact path='/terms' component={pages.TermsPage} />
             <Route exact path='/login' component={pages.LoginPage} />
             <Route exact path='/register' component={pages.RegisterPage} />
             <Route exact path='/forgot-password' component={pages.ForgotPasswordPage} />

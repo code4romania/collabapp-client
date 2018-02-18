@@ -5,3 +5,9 @@
     width: 100%;
   }
 }
+
+.checkbox {
+  input {
+    margin-right: ($space / 4);
+  }
+}

@@ -7,7 +7,7 @@ export default class ResetPasswordPage extends Component {
 
   render () {
     return (
-      <div className='Page ResetPasswordPage'>
+      <div className='Page AuthPage ResetPasswordPage'>
         <div className='container'>
           <p>this is where you reset your password page</p>
         </div>

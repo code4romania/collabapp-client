@@ -12,4 +12,29 @@
 
 .Page-hero {
   margin: ($space) 0;
+
+  .AuthPage &,
+  .HomePage & {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .RegisterPage & {
+    max-width: 100%;
+  }
+}
+
+.AuthForm {
+  margin: ($space) 0 0;
+
+  .button {
+    margin-top: ($space);
+  }
+
+  &.RegisterForm {
+    .button {
+      margin: 0;
+    }
+  }
 }

@@ -12,9 +12,9 @@ export default class HomePage extends Component {
       <div className='Page HomePage'>
         <div className='container'>
           <Columns isCentered>
-            <Column isSize={{mobile: 12, tablet: 8, desktop: 6}}>
+            <Column isSize={{mobile: 12, tablet: 8}}>
               <Box className='Page-hero'>
-                <Title>Bine ai venit!</Title>
+                <Title isSize='2'>Bine ai venit!</Title>
                 <p>You wanna know how I got them? So I had a wife. She was beautiful, like you, who tells me I worry too much, who tells me I ought to smile more, who gambles and gets in deep with the sharks. Hey. One day they carve her face. And we have no money for surgeries. She can't take it. </p>
               </Box>
             </Column>

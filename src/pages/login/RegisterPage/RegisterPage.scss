@@ -1,1 +1,20 @@
 @import "src/styles/settings/all";
+
+.RegisterForm {
+  .button {
+    margin-top: 0;
+  }
+}
+
+.RegisterForm-steps {
+  margin: ($space) 0;
+}
+
+.RegisterForm-step {
+  border-bottom: 1px solid $grey-lighter;
+  padding: ($space) 0 ($space) 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}

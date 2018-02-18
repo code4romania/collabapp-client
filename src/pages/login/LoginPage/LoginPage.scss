@@ -1,15 +1,5 @@
 @import "src/styles/settings/all";
 
-.LoginPage {}
-
-.LoginForm {
-  margin: ($space) 0 0;
-
-  .button {
-    margin: ($space) 0 0;
-  }
-}
-
 .LoginForm-reset {
   display: inline-block;
   font-size: $size-6;
