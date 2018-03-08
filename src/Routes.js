@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
+import { Route } from 'react-router-dom'
+import { Switch } from 'react-router'
+import { ConnectedRouter } from 'react-router-redux'
 import pages from './pages'
 import { AppLayout } from './layouts'
 
@@ -10,7 +11,7 @@ export default class App extends Component {
     document.title = 'Comunitatea Code for Romania'
 
     return (
-      <Router>
+      <ConnectedRouter history={this.props.history}>
         <Switch>
           <AppLayout>
             <Route exact path='/' component={pages.HomePage} />
@@ -21,7 +22,7 @@ export default class App extends Component {
             <Route exact path='/reset-password' component={pages.ResetPasswordPage} />
           </AppLayout>
         </Switch>
-      </Router>
+      </ConnectedRouter>
     )
   }
 }
