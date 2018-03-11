@@ -1,4 +1,4 @@
-import gql from 'graphql-tag';
+import gql from 'graphql-tag'
 
 const CREATE_USER_MUTATION = gql`
     mutation CreateUserMutation(
@@ -21,6 +21,6 @@ const CREATE_USER_MUTATION = gql`
             email
         }
     }
-`;
+`
 
-export default CREATE_USER_MUTATION;
+export default CREATE_USER_MUTATION

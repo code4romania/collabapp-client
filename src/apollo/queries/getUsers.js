@@ -1,4 +1,4 @@
-import gql from 'graphql-tag';
+import gql from 'graphql-tag'
 
 const GET_USERS = gql`
     query GetUsers() {
@@ -7,6 +7,6 @@ const GET_USERS = gql`
             name
         }
     }
-`;
+`
 
-export default GET_USERS;
+export default GET_USERS

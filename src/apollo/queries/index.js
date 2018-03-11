@@ -1,1 +1,1 @@
-export { default as GET_USERS } from './getUsers';
+export { default as GET_USERS } from './getUsers'
